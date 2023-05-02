@@ -10,4 +10,5 @@ app.router = Router;
 // It's better to wait for the event for manipulation
 window.addEventListener('DOMContentLoaded', async () => {
   loadData();
+  app.router.init();
 });
